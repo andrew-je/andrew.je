@@ -84,21 +84,6 @@ This project can be easily deployed to various platforms:
 - **Netlify**: Drag and drop the `dist` folder after building
 - **GitHub Pages**: Use GitHub Actions for automatic deployment
 
-## 🤝 Contributing
-
-While this is a personal portfolio, if you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 📞 Contact
-
-- **Website**: [andrew.je](https://andrew.je)
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-
----
-
-⭐ If you found this portfolio helpful, please give it a star!
