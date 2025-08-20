@@ -28,7 +28,7 @@ const SocialLinks = () => (
     </a>
     <a
       className="social-item"
-      href="https://rainbow.me/lbayo.eth"
+      href=""
       target="_blank"
       rel="noopener noreferrer"
     >
