@@ -36,7 +36,7 @@ const SocialLinks = () => (
     </a>
     <a
       className="social-item"
-      href="https://nostr.com/npub1yourpubkey"
+      href="https://nostr.com/npub1ljvzz7em74wzxwp2fcq5t0c3h567jtdw5227y56eke7vlpmge38sxeuhj5"
       target="_blank"
       rel="noopener noreferrer"
       
