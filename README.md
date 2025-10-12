@@ -1,89 +1,84 @@
-# andrew.je
+# Andrew Raynes - Personal Website
 
-A modern, responsive personal portfolio website built with React, TypeScript, and Vite.
+A modern, responsive personal website built with Next.js 15, React 19, and Tailwind CSS.
 
-## 🚀 Features
+## 🚀 Live Website
 
-- **Modern Design**: Clean and professional layout
-- **Responsive**: Works seamlessly on desktop, tablet, and mobile devices
-- **Fast Performance**: Built with Vite for lightning-fast development and builds
-- **Type Safety**: Full TypeScript support for better development experience
-- **Component-Based**: Modular React components for easy maintenance
+**[https://andrew.je](https://andrew.je)**
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React 19.1.1
-- **Language**: TypeScript
-- **Build Tool**: Vite
-- **Styling**: CSS3
-- **Icons**: React Icons
-- **Linting**: ESLint with TypeScript support
+- **Next.js 15.2.4** - React framework with App Router
+- **React 19** - Latest React version
+- **TypeScript** - Type safety and better developer experience
+- **Tailwind CSS** - Utility-first CSS framework
+- **Radix UI** - Accessible component primitives
+- **Lucide React** - Beautiful icons
+- **Next Themes** - Dark/light mode support
 
-## 📦 Installation
+## 🏃‍♂️ Getting Started
 
-1. Clone the repository:
+### Prerequisites
+
+- Node.js 18+ 
+- npm, yarn, or pnpm
+
+### Installation
+
+1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/andrew.je.git
+git clone https://github.com/your-username/andrew.je.git
 cd andrew.je
 ```
 
-2. Install dependencies:
+2. Install dependencies
 ```bash
-npm install
+npm install --legacy-peer-deps
 ```
 
-3. Start the development server:
+3. Run the development server
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-## 🏗️ Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## 📁 Project Structure
 
 ```
-src/
-├── components/
-│   ├── Bio.tsx
-│   ├── ContactLinks.tsx
-│   ├── ProfileHeader.tsx
-│   └── SocialLinks.tsx
-├── App.tsx
-├── App.css
-└── main.tsx
+├── app/                    # Next.js 13+ App Router
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Root layout
+│   ├── page.tsx           # Home page
+│   └── projects/          # Projects page
+├── components/            # Reusable components
+│   ├── ui/               # UI components (buttons, etc.)
+│   ├── navigation.tsx    # Navigation component
+│   └── theme-*.tsx       # Theme-related components
+├── lib/                  # Utility functions
+├── public/               # Static assets
+└── components.json       # shadcn/ui configuration
 ```
 
-## 🎨 Customization
+## 🎨 Features
 
-The portfolio is built with modular components that can be easily customized:
-
-- **ProfileHeader**: Update your name, title, and profile image
-- **Bio**: Modify your personal description and background
-- **ContactLinks**: Add or modify contact information
-- **SocialLinks**: Update social media links and icons
-
-## 📱 Responsive Design
-
-The portfolio is fully responsive and optimized for:
-- Desktop (1200px+)
-- Tablet (768px - 1199px)
-- Mobile (320px - 767px)
+- ✅ **Responsive Design** - Works on all devices
+- ✅ **Dark/Light Mode** - Toggle between themes
+- ✅ **Modern UI** - Clean, professional design
+- ✅ **Fast Performance** - Optimized with Next.js
+- ✅ **TypeScript** - Full type safety
+- ✅ **Accessible** - Built with accessibility in mind
 
 ## 🚀 Deployment
 
-This project can be easily deployed to various platforms:
+This project is optimized for deployment on Vercel:
 
-- **Vercel**: Connect your GitHub repository for automatic deployments
-- **Netlify**: Drag and drop the `dist` folder after building
-- **GitHub Pages**: Use GitHub Actions for automatic deployment
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/andrew.je)
 
-## 📄 License
+## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
