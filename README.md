@@ -1,4 +1,4 @@
-# Andrew Raynes - Personal Website
+# Personal Website
 
 A modern, responsive personal website built with Next.js 15, React 19, and Tailwind CSS.
 
