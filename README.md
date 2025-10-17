@@ -60,15 +60,6 @@ npm run dev
 └── components.json       # shadcn/ui configuration
 ```
 
-## 🎨 Features
-
-- ✅ **Responsive Design** - Works on all devices
-- ✅ **Dark/Light Mode** - Toggle between themes
-- ✅ **Modern UI** - Clean, professional design
-- ✅ **Fast Performance** - Optimized with Next.js
-- ✅ **TypeScript** - Full type safety
-- ✅ **Accessible** - Built with accessibility in mind
-
 ## 🚀 Deployment
 
 This project is optimized for deployment on Vercel:
@@ -78,7 +69,3 @@ This project is optimized for deployment on Vercel:
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
