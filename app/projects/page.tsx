@@ -28,8 +28,8 @@ const projects = [
 ]
 
 const tagColors = {
-  Project: "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400",
-  Post: "bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400"
+  Project: "bg-[#E8F5E9] text-[#1B5E20] dark:bg-[#2E7D32]/30 dark:text-[#A5D6A7]",
+  Post: "bg-[#FFF9C4] text-[#F57F17] dark:bg-[#FFD54F]/30 dark:text-[#FFE082]"
 }
 
 export default function ProjectsPage() {
