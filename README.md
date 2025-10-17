@@ -27,7 +27,7 @@ A modern, responsive personal website built with Next.js 15, React 19, and Tailw
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/andrew.je.git
+git clone https://github.com/nomad10z/andrew.je.git
 cd andrew.je
 ```
 
