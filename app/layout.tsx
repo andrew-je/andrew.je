@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   title: "Andrew",
   description: "Personal website of Andrew, Software Engineer at Lloyds Banking Group",
   generator: "v0.app",
+    robots: {
+    index: false,
+    follow: false,
+  },
 }
 
 export default function RootLayout({
