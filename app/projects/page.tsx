@@ -7,7 +7,7 @@ const projects = [
     url: "http://themooringscottage.com",
   },
   {
-    title: "aem+",
+    title: "aem+ for Adobe Experience Manager",
     year: "2017",
     url: "https://github.com/nomad10z/aem-plus",
   },

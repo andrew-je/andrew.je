@@ -15,7 +15,7 @@ export default function Home() {
         {/* Social Links */}
         <section className="flex items-center gap-4">
           <a
-            href="https://x.com/nomad10z"
+            href="https://x.com/andrewje_"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground hover:text-muted-foreground transition-colors"
@@ -26,7 +26,7 @@ export default function Home() {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/andrewraynes/"
+            href="https://www.linkedin.com/in/andrew-je/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground hover:text-muted-foreground transition-colors"
@@ -35,7 +35,7 @@ export default function Home() {
             <Linkedin className="h-5 w-5" />
           </a>
           <a
-            href="https://github.com/nomad10z"
+            href="https://github.com/andrew-je"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground hover:text-muted-foreground transition-colors"
