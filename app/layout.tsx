@@ -6,7 +6,6 @@ import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Navigation } from "@/components/navigation"
 import { Suspense } from "react"
-import Head from 'next/head';
 import "./globals.css"
 
 const siteUrl = "https://andrew.je";
@@ -14,9 +13,12 @@ const siteUrl = "https://andrew.je";
 export const metadata: Metadata = {
   title: "Andrew",
   description: "andrew.je",
-    robots: {
+  robots: {
     index: false,
     follow: false,
+  },
+  icons: {
+    icon: "/favicon.ico",
   },
   openGraph: {
     title: "andrew.je",
@@ -49,9 +51,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
         <ThemeProvider defaultTheme="system" storageKey="andrew-portfolio-theme">
           <Suspense fallback={null}>

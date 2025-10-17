@@ -5,23 +5,32 @@ const projects = [
     title: "andrew.je",
     year: "2025",
     url: "http://andrew.je",
+    tag: "Project"
   },
   {
     title: "The Moorings Cottage",
     year: "2020",
     url: "http://themooringscottage.com",
+    tag: "Project"
   },
   {
     title: "aem+",
     year: "2017",
     url: "https://github.com/nomad10z/aem-plus",
+    tag: "Project"
   },
   {
     title: "Hack Cancer",
     year: "2015",
     url: "https://medium.com/hackcancer-hackathon/a-hackathon-that-changed-the-world-c4a25ea61238",
+    tag: "Post"
   },
 ]
+
+const tagColors = {
+  Project: "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400",
+  Post: "bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400"
+}
 
 export default function ProjectsPage() {
   return (
@@ -35,14 +44,19 @@ export default function ProjectsPage() {
         <section className="space-y-6">
           {projects.map((project, index) => (
             <div key={index} className="flex items-baseline justify-between gap-4">
-              <a
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-foreground hover:text-muted-foreground transition-colors underline"
-              >
-                {project.title}
-              </a>
+              <div className="flex items-center gap-2">
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground hover:text-muted-foreground transition-colors underline"
+                >
+                  {project.title}
+                </a>
+                <span className={`text-xs px-2 py-0.5 rounded-full ${tagColors[project.tag as keyof typeof tagColors]}`}>
+                  {project.tag}
+                </span>
+              </div>
               <span className="text-muted-foreground text-sm">{project.year}</span>
             </div>
           ))}
