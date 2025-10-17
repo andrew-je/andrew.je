@@ -2,12 +2,17 @@ import Link from "next/link"
 
 const projects = [
   {
+    title: "andrew.je",
+    year: "2025",
+    url: "http://andrew.je",
+  },
+  {
     title: "The Moorings Cottage",
     year: "2020",
     url: "http://themooringscottage.com",
   },
   {
-    title: "aem+ for Adobe Experience Manager",
+    title: "aem+",
     year: "2017",
     url: "https://github.com/nomad10z/aem-plus",
   },
