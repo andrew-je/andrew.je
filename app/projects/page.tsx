@@ -5,7 +5,7 @@ const projects = [
     title: "andrew.je",
     year: "2025",
     url: "http://andrew.je",
-    tag: "Project"
+    tag: "Post"
   },
   {
     title: "The Moorings Cottage",
@@ -23,7 +23,13 @@ const projects = [
     title: "Hack Cancer",
     year: "2015",
     url: "https://medium.com/hackcancer-hackathon/a-hackathon-that-changed-the-world-c4a25ea61238",
-    tag: "Post"
+    tag: "Project"
+  },
+  {
+    title: "Speakability",
+    year: "2014",
+    url: "https://github.com/andrew-je/speakability",
+    tag: "Project"
   },
 ]
 
