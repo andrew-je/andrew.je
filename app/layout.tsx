@@ -8,6 +8,8 @@ import { Navigation } from "@/components/navigation"
 import { Suspense } from "react"
 import "./globals.css"
 
+const siteUrl = "https://andrew.je";
+
 export const metadata: Metadata = {
   title: "Andrew",
   description: "andrew.je",
@@ -22,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "andrew.je",
     images: [
       {
-        url: "https://andrew.je/assets/cover-andrewje.png",
+        url: `${siteUrl}/assets/site-cover.png`,
         width: 1200,
         height: 630,
         alt: "andrew.je",
@@ -34,8 +36,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "andrew.je",
-    description: "Welcome to andrew.je — my personal website.",
-    images: ["https://andrew.je/assets/cover-andrewje.png"],
+    description: "andrew.je",
+    images: [`${siteUrl}/assets/site-cover.png`],
   },
 }
 
