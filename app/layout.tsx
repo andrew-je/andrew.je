@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Navigation } from "@/components/navigation"
 import { Suspense } from "react"
+import { MDXProviderWrapper } from "./mdx-provider"
 import "./globals.css"
 
 const siteUrl = "https://andrew.je";
@@ -55,8 +56,10 @@ export default function RootLayout({
         <ThemeProvider defaultTheme="system" storageKey="andrew-portfolio-theme">
           <Suspense fallback={null}>
             <Navigation />
+            <MDXProviderWrapper>
+              <main className="pt-16">{children}</main>
+            </MDXProviderWrapper>
           </Suspense>
-          <main className="pt-16">{children}</main>
           <Analytics />
         </ThemeProvider>
       </body>

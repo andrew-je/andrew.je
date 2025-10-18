@@ -43,12 +43,23 @@ export default function Home() {
           >
             <Github className="h-5 w-5" />
           </a>
+          <a
+            href="https://www.tumblr.com/andrew-je"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-foreground hover:text-muted-foreground transition-colors"
+            aria-label="Tumblr"
+          >
+            <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.643c3.63-1.313 4.512-4.996 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.407l1.155 3.337c-.436.636-2.4 1.374-4.156 1.538-.401.042-.803.07-1.202.093z"/>
+            </svg>
+          </a>
         </section>
 
         {/* Projects Link */}
         <section>
-          <Link href="/projects" className="text-foreground hover:text-muted-foreground transition-colors underline">
-            View Projects →
+          <Link href="/projects" className="inline-flex items-center gap-1 text-foreground hover:text-muted-foreground transition-colors underline">
+            View Notes →
           </Link>
         </section>
 

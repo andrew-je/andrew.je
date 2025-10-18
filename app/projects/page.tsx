@@ -2,10 +2,16 @@ import Link from "next/link"
 
 const projects = [
   {
+    title: "Hello World",
+    year: "2025",
+    slug: "hello-world",
+    tag: "Note"
+  },
+  {
     title: "andrew.je",
     year: "2025",
     url: "http://andrew.je",
-    tag: "Post"
+    tag: "Project"
   },
   {
     title: "The Moorings Cottage",
@@ -35,7 +41,7 @@ const projects = [
 
 const tagColors = {
   Project: "bg-[#E8F5E9] text-[#1B5E20] dark:bg-[#2E7D32]/30 dark:text-[#A5D6A7]",
-  Post: "bg-[#FFF9C4] text-[#F57F17] dark:bg-[#FFD54F]/30 dark:text-[#FFE082]"
+  Note: "bg-[#E3F2FD] text-[#0D47A1] dark:bg-[#1565C0]/30 dark:text-[#90CAF9]"
 }
 
 export default function ProjectsPage() {
@@ -51,14 +57,23 @@ export default function ProjectsPage() {
           {projects.map((project, index) => (
             <div key={index} className="flex items-baseline justify-between gap-4">
               <div className="flex items-center gap-2">
-                <a
-                  href={project.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-foreground hover:text-muted-foreground transition-colors underline"
-                >
-                  {project.title}
-                </a>
+                {project.slug ? (
+                  <Link 
+                    href={`/posts/${project.slug}`}
+                    className="flex items-center gap-1 text-foreground hover:text-muted-foreground transition-colors underline"
+                  >
+                    {project.title}
+                  </Link>
+                ) : (
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground hover:text-muted-foreground transition-colors underline"
+                  >
+                    {project.title}
+                  </a>
+                )}
                 <span className={`text-xs px-2 py-0.5 rounded-full ${tagColors[project.tag as keyof typeof tagColors]}`}>
                   {project.tag}
                 </span>
