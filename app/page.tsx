@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Github, Linkedin } from "lucide-react"
+import { Github, Linkedin, MessageSquare } from "lucide-react"
 
 export default function Home() {
   return (

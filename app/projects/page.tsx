@@ -5,7 +5,7 @@ const projects = [
     title: "Hello World",
     year: "2025",
     slug: "hello-world",
-    tag: "Note"
+    tag: "Post"
   },
   {
     title: "andrew.je",
@@ -41,7 +41,7 @@ const projects = [
 
 const tagColors = {
   Project: "bg-[#E8F5E9] text-[#1B5E20] dark:bg-[#2E7D32]/30 dark:text-[#A5D6A7]",
-  Note: "bg-[#E3F2FD] text-[#0D47A1] dark:bg-[#1565C0]/30 dark:text-[#90CAF9]"
+  Post: "bg-[#E3F2FD] text-[#0D47A1] dark:bg-[#1565C0]/30 dark:text-[#90CAF9]"
 }
 
 export default function ProjectsPage() {
