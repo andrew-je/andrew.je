@@ -8,7 +8,7 @@ const projects = [
     tag: "Post"
   },
   {
-    title: "andrew.je",
+    title: "andrew.je (New)",
     year: "2025",
     url: "http://andrew.je",
     tag: "Project"
