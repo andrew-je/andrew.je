@@ -59,7 +59,7 @@ export default function Home() {
         {/* Projects Link */}
         <section>
           <Link href="/projects" className="inline-flex items-center gap-1 text-foreground hover:text-muted-foreground transition-colors underline">
-            View Notes →
+            View Projects & Posts →
           </Link>
         </section>
 
