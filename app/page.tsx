@@ -50,8 +50,8 @@ export default function Home() {
             className="text-foreground hover:text-muted-foreground transition-colors"
             aria-label="Tumblr"
           >
-            <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.643c3.63-1.313 4.512-4.996 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.407l1.155 3.337c-.436.636-2.4 1.374-4.156 1.538-.401.042-.803.07-1.202.093z"/>
+            <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
             </svg>
           </a>
         </section>
@@ -59,7 +59,7 @@ export default function Home() {
         {/* Projects Link */}
         <section>
           <Link href="/projects" className="inline-flex items-center gap-1 text-foreground hover:text-muted-foreground transition-colors underline">
-            View Projects & Posts →
+            Projects & Posts →
           </Link>
         </section>
 
