@@ -17,7 +17,10 @@ export const metadata: Metadata = {
     follow: false,
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: '/favicon.ico' },
+      { url: `${siteUrl}/favicon.ico`, sizes: 'any' }
+    ],
   },
   openGraph: {
     title: "andrew.je",
