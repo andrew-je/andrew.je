@@ -16,11 +16,9 @@ export const metadata: Metadata = {
     index: false,
     follow: false,
   },
+  metadataBase: new URL(siteUrl),
   icons: {
-    icon: [
-      { url: '/favicon.ico' },
-      { url: `${siteUrl}/favicon.ico`, sizes: 'any' }
-    ],
+    icon: "/favicon-new.ico",
   },
   openGraph: {
     title: "andrew.je",
@@ -29,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "andrew.je",
     images: [
       {
-        url: `${siteUrl}/assets/site-cover.png`,
+        url: "/site-cover.png",
         width: 1200,
         height: 630,
         alt: "andrew.je",
