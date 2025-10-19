@@ -1,13 +1,9 @@
 'use client';
 
 import { MDXRemote, type MDXRemoteProps } from 'next-mdx-remote/rsc';
-import { mdxComponents } from './mdx-components';
+import mdxComponents from './mdx-components';
 
-type MDXContentProps = {
-  source: string;
-};
-
-export function MDXContent({ source }: MDXContentProps) {
+export default function MDXContent({ source }: { source: string }) {
   return (
     <div className="prose dark:prose-invert max-w-none">
       <MDXRemote 

@@ -84,7 +84,7 @@ export default function ProjectsPage() {
         </section>
 
         <section>
-          <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
+          <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1">
             ← Back to home
           </Link>
         </section>
